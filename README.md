@@ -1,4 +1,4 @@
-# ANODEFLEX 3 + 3 nodos · Beta
+# ANODEFLEX 3 + 3 nodos · Gama
 
 Aplicación web instalable para calibrar y regular doce ramas ANODEFLEX distribuidas en seis nodos.
 
@@ -20,3 +20,5 @@ La app calcula la tensión mínima y los reóstatos a partir de las doce corrien
 Desde la raíz del proyecto, ejecute `node tests/model.test.js`, `node tests/static.test.js` y `node tests/app.test.js`. GitHub Pages sirve los archivos de `docs/`. Después de la primera carga, la app puede instalarse y usar los archivos esenciales sin conexión.
 
 En regulación, ingrese una corriente común y pulse «Aplicar a las 12 ramas». Después puede cambiar cada objetivo individualmente. El ajuste asistido calcula la tensión mínima y reemplaza los valores de los reóstatos.
+
+Al abrir la aplicación todas las ramas están instaladas. Marque «no instalada» para cada rama ausente y recalcule. La rama no aporta corriente ni potencia y queda fuera del ajuste. Si un tramo no conduce corriente durante su medición, no se puede determinar su resistencia y la aplicación muestra un aviso. Los casos exportados conservan la selección.

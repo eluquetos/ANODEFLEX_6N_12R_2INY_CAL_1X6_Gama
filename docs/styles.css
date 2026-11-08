@@ -398,3 +398,5 @@ dialog form>div{display:flex;justify-content:flex-end;gap:8px;margin-top:22px}
   .technical-details{display:block}
   .summary-panel{grid-template-columns:1fr}
 }
+
+.field-branch{display:grid;gap:8px}.branch-enabled{display:flex;align-items:center;gap:6px;font-size:.75rem}.branch-enabled input{width:18px;height:18px;flex:none}input:disabled{opacity:.45}
